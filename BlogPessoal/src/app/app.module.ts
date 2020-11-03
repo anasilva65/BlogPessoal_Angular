@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FeedComponent } from './feed/feed.component';
+import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    FeedComponent,
+    PerfilLateralComponent
   ],
   imports: [
     BrowserModule,
